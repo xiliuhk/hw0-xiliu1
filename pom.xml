@@ -5,14 +5,15 @@
 	<artifactId>hw0-xiliu1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<scm>
-		<url>scm:git:git://github.com/xiliuhk/hw0-xiliu1.git</url>
+		<connection>scm:git:git@github.com:xiliuhk/hw0-xiliu1.git</connection>
+		<developerConnection>scm:git:git@github.com:xiliuhk/hw0-xiliu1.git</developerConnection>
 	</scm>
 	<repositories>
 		<repository>
 
 			<id>deployment</id>
 
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/groups/course</url>
+			<url>http://cmu.lti.cs.cmu.edu:8081/nexus/content/groups/course</url>
 
 		</repository>
 	</repositories>
@@ -23,7 +24,7 @@
 
 			<id>deployment</id>
 
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-releases</url>
+			<url>http://cmu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-releases</url>
 
 		</repository>
 
@@ -31,7 +32,7 @@
 
 			<id>snapshots</id>
 
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-snapshots</url>
+			<url>http://cmu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-snapshots</url>
 
 		</snapshotRepository>
 
